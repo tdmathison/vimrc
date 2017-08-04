@@ -8,15 +8,15 @@ then
     mv ~/.vimrc ~/.vimrc.bak
 fi
 
-curl -sL https://raw.githubusercontent.com/egalpin/apt-vim/master/install.sh | sh &&
-. ~/.bashrc
-apt-vim install -y https://github.com/scrooloose/nerdtree.git &&
-apt-vim install -y https://github.com/vim-syntastic/syntastic.git &&
-apt-vim install -y https://github.com/tpope/vim-fugitive.git &&
-apt-vim install -y https://github.com/ctrlpvim/ctrlp.vim.git &&
-apt-vim install -y https://github.com/vim-airline/vim-airline.git &&
-apt-vim install -y https://github.com/ervandew/supertab.git &&
-apt-vim install -y https://github.com/majutsushi/tagbar.git &&
+curl -sL https://raw.githubusercontent.com/egalpin/apt-vim/master/install.sh | sh 
+. ~/.bashrc 
+apt-vim install -y https://github.com/scrooloose/nerdtree.git 
+apt-vim install -y https://github.com/vim-syntastic/syntastic.git 
+apt-vim install -y https://github.com/tpope/vim-fugitive.git 
+apt-vim install -y https://github.com/ctrlpvim/ctrlp.vim.git 
+apt-vim install -y https://github.com/vim-airline/vim-airline.git 
+apt-vim install -y https://github.com/ervandew/supertab.git 
+apt-vim install -y https://github.com/majutsushi/tagbar.git 
 apt-vim install -y https://github.com/bling/vim-bufferline.git
 
 cat >~/.vimrc << EOL
