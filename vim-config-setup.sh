@@ -39,6 +39,8 @@ set list
 set ttyfast
 set nolist
 
+au BufRead,BufNewFile *.asm,*.nasm set filetype=nasm
+
 execute pathogen#infect()
 call pathogen#helptags()
 
