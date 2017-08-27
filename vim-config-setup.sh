@@ -61,3 +61,6 @@ map <C-p> :CtrlP<CR>
 map <C-t> :TagbarToggle<CR>
 EOL
 
+cat >~/.gvimrc << EOL
+colorscheme torte
+EOL
